@@ -1,7 +1,4 @@
-collections:
-  authors:
-    output: true
-
+# YAML文件用户设置各个界面的layout布局值
 defaults:
   - scope:
       path: ""
