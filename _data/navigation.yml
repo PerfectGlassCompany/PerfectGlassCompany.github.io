@@ -2,10 +2,10 @@
 - name: HomePage
   link: /
 - name: Products
-  link: /about.html
+  link: /products.html
 - name: Story
-  link: /blog.html
+  link: /Story.html
 - name: Commitment
-  link: /staff.html
+  link: /Commitment.html
 - name: Join us
-  link: /resume.html
+  link: /JoinUs.html
