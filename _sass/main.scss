@@ -28,3 +28,26 @@ table th, table td {
 body {
   padding-top: 50px; /* 根据导航栏的高度进行调整 */
 }
+
+/* 添加到你的CSS文件 */
+#myCarousel {
+  width: 500px; /* 设置轮播的固定宽度 */
+  margin: 0 auto; /* 水平居中对齐 */
+}
+
+.carousel-inner .item img {
+  width: 100%;
+  height: 300px;
+  transition: transform 0.5s ease; /* 添加平滑过渡效果 */
+}
+
+.carousel-inner .item img:hover {
+  transform: scale(1.1); /* 放大图片 */
+}
+
+/* 可选：如果需要调整导航箭头的位置 */
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none; /* 移除默认背景 */
+  width: 30px; /* 调整宽度以适应轮播的宽度 */
+}
