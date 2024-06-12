@@ -26,12 +26,13 @@
   </head>
 
   <body style="display: flex;height: 100vh;height: calc(var(--vh, 1vh) * 100);">
+    {% include navigation.html %}
     <div style="display: flex;height: 100%;position: relative;overflow-y: hidden;">
-    {% include nav_product.html %}
-    <div style="flex: 1;margin-left: 20px;min-width: 500px;">
-    {{ content }}
+      {% include nav_product.html %}
+      <div style="flex: 1;margin-left: 20px;min-width: 500px;">
+      {{ content }}
+      </div>
     </div>
-  </div>
   </body>
   
 </html>
