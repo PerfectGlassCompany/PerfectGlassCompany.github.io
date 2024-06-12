@@ -9,13 +9,25 @@
     <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
     <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+          // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+    let vh = window.innerHeight * 0.01
+    // Then we set the value in the --vh custom property to the root of the document
+    document.documentElement.style.setProperty('--vh', `${vh}px`)
+
+    // We listen to the resize event
+    window.addEventListener('resize', () => {
+      // We execute the same script as before
+      let vh = window.innerHeight * 0.01
+      console.log(vh);
+      document.documentElement.style.setProperty('--vh', `${vh}px`)
+    })
+    </script>
   </head>
 
-  <body>
-    <div style="display: flex;">
-    <div >
+  <body style="display: flex;height: 100vh;height: calc(var(--vh, 1vh) * 100);">
+    <div style="display: flex;height: 100%;position: relative;overflow-y: hidden;">
     {% include nav_product.html %}
-    </div>
     <div style="flex: 1;margin-left: 20px;min-width: 500px;">
     {{ content }}
     </div>
