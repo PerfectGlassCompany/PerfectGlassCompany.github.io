@@ -1,11 +1,11 @@
 # 主要数据页索引
-- name: HomePage
+- name: 主页
   link: /
-- name: Products
+- name: 产品
   link: /products.html
-- name: Story
+- name: 故事
   link: /Story.html
-- name: Commitment
+- name: 售后
   link: /Commitment.html
-- name: Join us
+- name: 加入我们
   link: /JoinUs.html

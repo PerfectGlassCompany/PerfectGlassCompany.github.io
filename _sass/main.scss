@@ -14,3 +14,17 @@ table th, table td {
   text-align: center; /* 水平居中 */
   vertical-align: middle; /* 垂直居中 */
 }
+
+/* 导航栏常显示 */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #ccc; /* 确保背景色与导航栏一致 */
+}
+
+/* 为了避免导航栏遮挡内容，调整body的顶部内边距 */
+body {
+  padding-top: 50px; /* 根据导航栏的高度进行调整 */
+}
