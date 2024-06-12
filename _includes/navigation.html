@@ -6,21 +6,7 @@
     <!-- 导航栏各索引 -->
     <!-- 导航栏各索引 -->
     {% for item in site.data.navigation %}
-      {% if item.link == '/products.html' %}
-        <li class="nav-link dropdown {% if page.url == item.link %} active {% endif %}">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ item.name }} <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <!-- 添加产品页面的子菜单项 -->
-            {% for item in site.data.nav_product %}
-            <li><a href="{{ item.link }}"> {{ item.name }} </a></li>
-            {% endfor %}
-          </ul>
-        </li>
-      {% else %}
-        <li class="nav-link {% if page.url == item.link %} active {% endif %}">
-          <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-        </li>
-      {% endif %}
+    <li class = "nav-link {% if page.url == item.link %} active {% endif %}"><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
     {% endfor %}
   </ul>
 </div>
