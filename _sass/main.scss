@@ -31,14 +31,15 @@ body {
 
 /* 添加到你的CSS文件 */
 #myCarousel {
-  width: 500px; /* 设置轮播的固定宽度 */
-  margin: 0 auto; /* 水平居中对齐 */
+  width: 100%; /* 设置轮播的宽度为100% */
+  width: 1000px; /* 设置轮播的最大宽度 */
+  height: 500px; /* 使高度自动调整 */
+  margin: auto; /* 使轮播居中 */
 }
 
-.carousel-inner .item img {
-  width: 100%;
-  height: 300px;
-  transition: transform 0.5s ease; /* 添加平滑过渡效果 */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* 添加半透明背景 */
+  padding: 10px; /* 添加内边距 */
 }
 
 .carousel-inner .item img:hover {

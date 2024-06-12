@@ -1,12 +1,17 @@
 ---
 title: Home
 ---
+ <!-- 首标题 -->
 <h1 class="text-center" style="white-space: nowrap;">
     我们的 <span class="text-success">责任</span> 是让饮 <span class="text-primary">水</span> 更加 <span class="text-danger">别具一格！</span>
 </h1>
 
-<h3 class="text-center text-muted"><span class="glyphicon glyphicon-bookmark"></span> 欢迎来到 PerfactGlassCompany 网站 !</code></h3>
+ <!-- 副标题 -->
+<h3 class="text-center text-muted"><span class="glyphicon glyphicon-bookmark"></span> 欢迎来到 PerfactGlassCompany 网站 !</code>
 
+</h3>
+
+ <!-- 轮播组件 -->
 <div id="myCarousel" class="carousel slide">
     <!-- 轮播（Carousel）指标 -->
     <ol class="carousel-indicators">
@@ -21,25 +26,25 @@ title: Home
     <div class="carousel-inner">
         <div class="item active">
             <a href="product/old-fashioned.html">
-                <img src="assets/css/images/B1.jpg" class="img-fluid" alt="玻璃杯1" style="width: 500px; height: 300px;">
+                <img src="assets/css/images/B1.jpg" class="img-fluid" alt="玻璃杯1" style="width: 1000px; height: 500px;">
             </a>
             <div class="carousel-caption">古典杯</div>
         </div>
         <div class="item">
             <a href="product/champagne-glass.html">
-                <img src="assets/css/images/B5.jpg" class="img-fluid" alt="玻璃杯2" style="width: 500px; height: 300px;">
+                <img src="assets/css/images/B5.jpg" class="img-fluid" alt="玻璃杯2" style="width: 1000px; height: 500px;">
             </a>
             <div class="carousel-caption">香槟杯</div>
         </div>
         <div class="item">
             <a href="product/red-wine-glass.html">
-                <img src="assets/css/images/C1.jpg" class="img-fluid" alt="玻璃杯3" style="width: 500px; height: 300px;">
+                <img src="assets/css/images/C1.jpg" class="img-fluid" alt="玻璃杯3" style="width: 1000px; height: 500px;">
             </a>
             <div class="carousel-caption">红葡萄酒杯</div>
         </div>
         <div class="item">
             <a href="product/highball-glass.html">
-                <img src="assets/css/images/c2.jpg" class="img-fluid" alt="玻璃杯3" style="width: 500px; height: 300px;">
+                <img src="assets/css/images/c2.jpg" class="img-fluid" alt="玻璃杯3" style="width: 1000px; height: 500px;">
             </a>
             <div class="carousel-caption">海波杯</div>
         </div>
@@ -60,6 +65,8 @@ title: Home
             <span class="sr-only">Next</span>
         </a>
 </div> 
+
+ <!-- 轮播脚本 -->
 <script>
 $(function(){
         // 初始化轮播
@@ -91,7 +98,7 @@ $(function(){
     });
 </script>
 
-
+ <!-- 正文信息 -->
 <div class="text-center">
     <h1 class="text-center" style="white-space: nowrap;">
         <span class="text-danger">多种多样</span> 的款式 <span class="text-success">以满足你的需求！</span>
@@ -101,20 +108,37 @@ $(function(){
         <img src="assets/css/images/cup2.jpg" class="img-rounded" style="width: 50%; height: auto;">
     </div>
     <h1 class="text-center" style="white-space: nowrap;">
-        结合 <span class="text-success">现代</span> <span class="text-danger">艺术！</span>
+        巧妙地结合 <span class="text-success">现代</span> <span class="text-danger">艺术！</span>
     </h1>
     <a href="/products.html">了解更多产品信息</a>
+    <div class="panel-body" style="padding: 30px 150px; display: flex; justify-content: space-between;">
+        <img src="assets/css/images/machine1.png" class="img-rounded" style="width: 48%; height: auto;">
+        <img src="assets/css/images/machine2.png" class="img-rounded" style="width: 48%; height: auto;">
+    </div>    
+    <h1 class="text-center" style="white-space: nowrap;">
+       现代化的生产流水线
+    </h1>   
+    <a href="/Story.html">了解我们的故事</a>
 
-    <h2 class="text-center" style="max-width: 1200px; white-space: normal; font-size: 70px;text-align: center;margin: 0 auto;">
-        
-    </h2>    
-    <a class="btn btn-default btn-lg" href="/about.html" role="button" style="margin-right: 20px;">去了解我们的故事</a>
+    <div class="panel-body" style="padding: 30px 150px;">
+        <img src="assets/css/images/Page1/protect.jpg" class="img-rounded" style="width: 400; height: 200;">
+    </div>
+    <h1 class="text-center" style="white-space: nowrap;">
+        向消费者提供 <span class="text-success">安心</span> 保障
+    </h1>
+    <a href="/Commitment.html">申请保障</a>
+
+    <div class="panel-body" style="padding: 30px 150px;">
+        <img src="assets/css/images/Page1/want.jpeg" class="img-rounded" style="width: 1000; height: 500;">
+    </div>
+    <h1 class="text-center" style="white-space: nowrap;">
+        广纳 <span class="text-success">天下</span> <span class="text-danger">才士！</span>
+    </h1>   
+    <a href="/JoinUs.html">加入我们</a>
+    
 </div>
 
-<p> </p>
-<p> </p>
-<p> </p>
-
+ <!-- 网页后缀 -->
 <div class="container">
     <div class="jumbotron"> 
         <h3>Abount us</h3>
@@ -129,9 +153,10 @@ $(function(){
     </div>
  </div>
 
+<!-- 进度条 -->
  <div class="progress">
     <div class="progress-bar" role="progressbar" aria-valuenow="60"
     aria-valuemin="0" aria-valuemax="100" style="width:70%">
       不断突破！60%
     </div>
-  </div>
+</div>
