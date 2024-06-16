@@ -1,73 +1,129 @@
 ---
 title: Products
 ---
- <!-- 产品介绍 -->
-<div class="container mt-5">
-    <div class="text-center mb-4">
-        <h1 class="display-4">玻璃杯产品介绍</h1>
-        <p class="lead">探索我们精美的玻璃杯系列，满足您的不同需求和品味。</p>
-    </div>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企业介绍与故事页面</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* 通用文本样式 */
+        .text-intro {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        /* 标题样式 */
+        .heading-intro {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-primary text-center">企业介绍</h1>
+                <p class="lead text-center">欢迎来到好玻璃！在这里，我们致力于创造一个积极、包容和创新的工作环境。</p>
+            </div>
+        </div>
 
-    <!-- 产品1 -->
-    <div class="row mb-5">
-        <div class="col-md-6">
-            <img src="assets/css/images/B1.jpg" class="img-fluid" alt="玻璃杯1" style="width: 500px; height: 300px;">
+        <!-- 企业介绍模块 -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <p class="text-intro">好玻璃，玻璃制造行业擎领者。作为国家高新技术企业，好玻璃拥有展览展示资质等业内相关资质，取得超100项国家专利及软件著作权的认证。技术涵盖多个领域。好玻璃以独特的创意玻璃制造手段，将创意策划、设计理念、传统玻璃工艺、现代玻璃制造理念等进行整合，为客户提供绝佳的玻璃产品。</p>
+                <p class="text-intro">我们拥有一支充满激情和创造力的团队，他们是公司成功的基石。我们的企业文化强调协作、创新和对卓越的追求。</p>
+            </div>
+            <div class="col-md-6">
+                <div class="panel-body">
+                    <img src="assets/css/images/machine1.png" class="img-rounded img-fluid" style="width: 100%; height: auto;" alt="玻璃机器">
+                </div>
+            </div>
         </div>
-        <div class="col-md-6">
-            <h2>古典杯(old-fashioned)</h2>
-            <p>又被称为威士忌杯、“岩石杯”。此杯壁较厚、杯底厚实，杯体宽大，令持杯者感到稳重、豪爽。威士忌杯是专门用于饮用威士忌的玻璃酒杯，其特点为圆桶型设计，杯底厚实，以适应加冰的需求。玻璃杯则是由玻璃制成的杯子，具有环保、健康、易清洗等优点，常用于日常饮水和品酒。威士忌杯作为玻璃杯的一种，专为威士忌爱好者设计，提供了独特的品酒体验。</p>
-            <p><strong>价格：</strong> ¥20</p>
-            <a  href="/product/old-fashioned.html"  class="btn btn-primary">购买</a>
-        </div>
-    </div>
 
-    <!-- 产品2 -->
-    <div class="row mb-5">
-        <div class="col-md-6 order-md-2">
-            <img src="assets/css/images/B5.jpg" class="img-fluid" alt="玻璃杯2" style="width: 500px; height: 300px;">
+        <!-- 好玻璃故事模块 -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <h2 class="text-center">好玻璃故事</h2>
+            </div>
         </div>
-        <div class="col-md-6 order-md-1" >
-            <h2>香槟杯(champagne glass)</h2>
-            <p>用于盛香槟酒或起泡葡萄酒，也作为鸡尾酒的载杯，分成三种类型：浅碟型、笛型、郁金香型，后两者多用于酒吧或宴会。香槟杯是专为香槟酒设计的玻璃杯，特点为细长杯身和窄口，有助于保留香槟的气泡和香气。玻璃杯是通用容器，适用于多种饮品，而香槟杯则是玻璃杯中的一种特殊类型，用于提升香槟的品鉴体验。</p>
-            <p><strong>价格：</strong> ¥35</p>
-            <a href="/product/champagne-glass.html" class="btn btn-primary">购买</a>
-        </div>
-    </div>
 
-    <!-- 产品3 -->
-    <div class="row mb-5">
-        <div class="col-md-6">
-            <img src="assets/css/images/C1.jpg" class="img-fluid" alt="玻璃杯3" style="width: 500px; height: 300px;">
+        <!-- 最新故事 -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="panel-body">
+                    <img src="assets/css/images/story/sto1.png" class="img-rounded img-fluid" style="width: 100%; height: auto;" alt="创新之路">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4 class="heading-intro"><a href="{{ '/innovation' | relative_url }}" class="text-intro">创新之路</a></h4>
+                <p class="text-intro">在好玻璃成立之初，市场竞争激烈，点击创新之路了解好玻璃如何在行业中脱颖而出。</p>
+            </div>
         </div>
-        <div class="col-md-6">
-            <h2>红葡萄酒杯(red wine glass)</h2>
-            <p>用于盛各类红葡萄酒，以容量10-12盎司较适宜，其杯型有球型、布根地型、波尔多型等。红葡萄酒杯是专为红葡萄酒设计的玻璃杯，杯肚圆润宽大，杯口略开，有助于氧化和释放葡萄酒的香气。其设计不仅考虑到了葡萄酒的品质，也提升了饮酒的舒适度和感官体验。红葡萄酒杯是品鉴红葡萄酒时不可或缺的器具。</p>
-            <p><strong>价格：</strong> ¥50</p>
-            <a href="/product/red-wine-glass.html" class="btn btn-primary">购买</a>
+
+        <div class="row mt-4"></div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="panel-body">
+                    <img src="assets/css/images/story/sto2.png" class="img-rounded img-fluid" style="width: 100%; height: auto;" alt="工匠精神">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4 class="heading-intro"><a href="{{ '/sprit' | relative_url }}" class="text-intro">工匠精神</a></h4>
+                <p class="text-intro">作为一家具有强大竞争力的企业，好玻璃一直致力于培养工人们的大国工匠精神，点击关爱环境了解好玻璃的工匠精神。</p>
+            </div>
         </div>
-    </div>
-    <!-- 产品4 -->
-    <div class="row mb-5">
-        <div class="col-md-6">
-            <img src="assets/css/images/c2.jpg" class="img-fluid" alt="玻璃杯3" style="width: 500px; height: 300px;">
+
+        <div class="row mt-4"></div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="panel-body">
+                    <img src="assets/css/images/story/sto3.png" class="img-rounded img-fluid" style="width: 100%; height: auto;" alt="客户至上">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4 class="heading-intro"><a href="{{ '/customer' | relative_url }}" class="text-intro">客户至上</a></h4>
+                <p class="text-intro">好玻璃始终坚持“客户至上”的原则，点击客户至上与好玻璃并肩同行。</p>
+            </div>
         </div>
-        <div class="col-md-6">
-            <h2>海波杯(highball glass)</h2>
-            <p>一种平底高身直筒型杯，多用于盛载长饮类鸡尾酒，亦可用于盛鲜果汁饮料，非常美观。常用于盛载长饮类鸡尾酒或软饮料。其杯型圆润，容量适中，多为224ml（盎司），能够快速醒酒并保留酒体香气。适用于内容丰富、颜值高的鸡尾酒，是品酒爱好者的优选之一。</p>
-            <p><strong>价格：</strong> ¥50</p>
-            <a href="/product/highball-glass.html"  class="btn btn-primary">购买</a>
+
+        <!-- 往期故事模块 -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <h3 class="text-left">往期故事</h3>
+            </div>
         </div>
-    </div>
-    <!-- 产品5 -->
-    <div class="row mb-5">
-        <div class="col-md-6">
-            <img src="assets/css/images/c3.jpg" class="img-fluid" alt="玻璃杯3" style="width: 500px; height: 300px;">
-        </div>
-        <div class="col-md-6">
-            <h2>鸡尾酒杯(cocktail glass)</h2>
-            <p>又叫“马天尼杯”，是V型带有柄的玻璃杯，容量约100毫升，形状独特，常用于装马天尼鸡尾酒。其细长的杯脚设计方便持杯，不会让鸡尾酒的温度上升，杯身的锥形则使芬芳气味更容易扩散，是调制和品饮马天尼鸡尾酒的理想选择。用于鸡尾酒，是酒吧或家庭小酒柜必备的杯具，以容量为41/2盎司最为适宜。</p>
-            <p><strong>价格：</strong> ¥50</p>
-            <a href="/product/cocktail-glass.html"  class="btn btn-primary">购买</a>
-        </div>
-    </div>
-</div>
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4 class="text-left mb-0"><a href="{{ '/detailedStory' | relative_url }}">好玻璃在比利时玻璃行业展会展出的高透明、超高强度玻璃产品获得金奖</a></h4>
+                    <small class="text-right text-muted">2022-01-15</small>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4 class="text-left mb-0"><a href="{{ '/detailedStory' | relative_url }}">好玻璃与器潢公司合作，打造昆明首栋极具创意和高端工艺的玻璃建筑——绿融</a></h4>
+                    <small class="text-right text-muted">2022-02-20</small>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4 class="text-left mb-0"><a href="{{ '/detailedStory' | relative_url }}">好玻璃推出全新智能玻璃，为未来智能家居提供更多可能</a></h4>
+                    <small class="text-right text-muted">2022-03-12</small>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4 class="text-left mb-0"><a href="{{ '/detailedStory' | relative_url }}">好玻璃推出绿色环保的新型玻璃，此最新研发成果引领了行业环保浪潮</a></h4>
+                    <small class="text-right text-muted">2022-04-05</small>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4 class="text-left mb-0"><a href="{{ '/detailedStory' | relative_url }}">好玻璃与知名建筑师合作，设计出独特的玻璃艺术品</a></h4>
+                    <small class="
