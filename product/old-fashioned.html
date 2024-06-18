@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>古典杯(old-fashioned)</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+          // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+    let vh = window.innerHeight * 0.01
+    // Then we set the value in the --vh custom property to the root of the document
+    document.documentElement.style.setProperty('--vh', `${vh}px`)
+
+    // We listen to the resize event
+    window.addEventListener('resize', () => {
+      // We execute the same script as before
+      let vh = window.innerHeight * 0.01
+      console.log(vh);
+      document.documentElement.style.setProperty('--vh', `${vh}px`)
+    })
+    </script>
+  </head>
+
+  <body style="display: flex;height: 100vh;height: calc(var(--vh, 1vh) * 100);">
+    <div style="display: flex;height: 100%;position: relative;overflow-y: hidden;">
+      <div style="width: 10vw;min-width: 200px;">
+
+  <div
+    style="display: flex; justify-content: center; background-color:#ccc; height: 100%;
+  flex-direction: column;justify-content: start;align-items: center;position: absolute;left: 0;top: 0;bottom: 0;width: 10vw;min-width: 200px;padding-top: 5vh;">
+
+    <a href="/" class="glass-a">
+
+      <div
+        style="text-align: center;color: white;border-radius: 10px;border: 2px solid white;margin-top: 10px;padding: 20px 20px;font-size: 20px;">
+
+        <img src="/assets/css/images/logo.jpg" class="img-circle img-fluid" width="80px" height="80px" /><br>
+        Perfect Glass<br>Company
+      </div>
+    </a>
+
+    <div style="color: white;font-size: 30px;margin: 20px 0px ;font-weight: 500;">Products</div>
+    <div style="flex: 1;overflow: scroll;flex-direction: column; justify-content: flex-start;display: flex;width: 100%; align-items: center;">
+      
+      
+      <a href="/product/old-fashioned.html" class="text-center product-nav  active ">古典杯</a>
+      
+      <a href="/product/champagne-glass.html" class="text-center product-nav ">香槟杯</a>
+      
+      <a href="/product/red-wine-glass.html" class="text-center product-nav ">红葡萄酒杯</a>
+      
+      <a href="/product/highball-glass.html" class="text-center product-nav ">海波杯</a>
+      
+      <a href="/product/cocktail-glass.html" class="text-center product-nav ">鸡尾酒杯</a>
+      
+  
+
+    </div>
+  </div>
+</div>
+      <!-- 导航栏代码 -->
+<div class="navbar-fixed" style="display: flex; justify-content: center; background-color:#ccc; padding: 5px 0px;">
+  <ul class=" nav nav-pills">
+    <!-- 导航栏图标 -->
+    <li class = "nav-link"><img src="/assets/css/images/logo.jpg" class="img-circle img-fluid" width="40px" height="40px"></li>
+    <!-- 导航栏各索引 -->
+    <!-- 导航栏各索引 -->
+    
+    <li class = "nav-link "><a href="/" >主页</a></li>
+    
+    <li class = "nav-link "><a href="/products.html" >产品</a></li>
+    
+    <li class = "nav-link "><a href="/Story.html" >故事</a></li>
+    
+    <li class = "nav-link "><a href="/Commitment.html" >售后</a></li>
+    
+    <li class = "nav-link "><a href="/JoinUs.html" >加入我们</a></li>
+    
+  </ul>
+</div>
+      <div style="flex: 1;margin-left: 20px;min-width: 500px;">
+        <div style="display:flex;height:100%;overflow:hidden;">
+
+    <div style="flex:1;padding-top: 20px;margin-right: 10px;position: relative;display: flex;flex-direction: column;">
+        <div style="flex: 1;overflow-y:scroll;">
+            <div class="page-header glass-h1 text-center">古典杯(old-fashioned)</div>
+            又被称为威士忌杯、“岩石杯”。此杯壁较厚、杯底厚实，杯体宽大，令持杯者感到稳重、豪爽。威士忌杯是专门用于饮用威士忌的玻璃酒杯，其特点为圆桶型设计，杯底厚实，以适应加冰的需求。玻璃杯则是由玻璃制成的杯子，具有环保、健康、易清洗等优点，常用于日常饮水和品酒。威士忌杯作为玻璃杯的一种，专为威士忌爱好者设计，提供了独特的品酒体验。
+            <div class="glass-title">历史演变</div>威士忌酒杯的历史可以追溯到16世纪的爱尔兰和苏格兰地区，最初的酒杯是木制的小碗，名为“夸克（Quiach）”。这些酒杯不仅是饮酒工具，还带有强烈的象征意义，如身份地位的象征、热情好客的标志等。随着时间的推移，威士忌酒杯经历了从木制到瓷制、金属制，再到玻璃制的演变。每一次的演变都反映了当时社会审美和技术水平的进步。
+            <div class="glass-title">设计特点</div>威士忌酒杯的设计多种多样，包括郁金香杯、白兰地杯、闻香杯等，每种酒杯都有其独特的设计特点。例如，郁金香杯底部宽阔、口部狭长，有利于香气的充分散发；白兰地杯宽口、矮脚、圆肚，能够保持酒体的温度，让口感更加柔和。一些奇特的威士忌酒杯，如A字、B字、C字威士忌酒杯，不仅具有独特的设计风格，还能让饮用者更好地品味酒的香气和口感。
+            <div class="glass-title">象征意义</div>威士忌酒杯不仅仅是饮酒的工具，它还承载着丰富的象征意义。如夸克杯的金银装饰，不仅体现了手工艺人的精湛技艺，还反映了当时社会上层阶级对财富和地位的追求。威士忌酒杯的设计也反映了不同地域和文化的特色，如苏格兰的夸克杯、英国的坦布勒杯等，都体现了各自独特的文化韵味。
+            <div class="glass-title">在品鉴中的重要作用</div>威士忌酒杯在威士忌品鉴中扮演着重要的角色。合适的酒杯能够让威士忌的香气得到充分的展现，让饮用者更好地品味威士忌的风味和口感。一些专业的威士忌酒杯，如格兰凯恩闻香杯、ISO杯等，都是根据威士忌品鉴的需求而设计的，它们能够提供更好的品鉴体验。
+        </div>
+        <div class="glass-buy-container">
+            <p><strong>价格：</strong> ¥20</p>
+            <a href="/product/old-fashioned.html" class="btn btn-primary">购买</a>
+        </div>
+    </div>
+    <div class="gallery">
+        <img src="/assets/css/images/glass/glass-5-1.jpg" />
+        <img src="/assets/css/images/glass/glass-5-2.jpg" />
+    </div>
+</div>
+      </div>
+    </div>
+  </body>
+  
+</html>
